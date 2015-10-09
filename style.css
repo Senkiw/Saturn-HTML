@@ -17,7 +17,7 @@ h1 {
 				2px 2px #000;
 	text-align: center;
 	color: #eee;
-	font-size: 10vh; 
+	font-size: 13vh; 
 	font-family:Calibri;
   	padding: 75px 0px 100px 0px;
 	/* Remember to save this image in folder and change address in HTML*/
@@ -29,7 +29,7 @@ h3 {
 	color: #eee;
 	font-family: Calibri;
 	padding: 40px 5px 40px; 
-  	font-size: 30px;
+  	font-size: 40px;
   	margin: 0;
 }
 
@@ -38,7 +38,7 @@ p {
 	text-align: left;
 	color: #d4d4d4;
 	font-family: Verdana;
-	font-size: 15px;
+	font-size: 25px;
 	padding: 10px 10px 35px 10px; 
 }
 
