@@ -67,7 +67,7 @@ nav ul {
 	text-align: center;
 	background: #444;
 	border-top: 10px solid;
-	border-bottom: 15px solid;
+	border-bottom: 13px solid;
 	border-color: #666;
   margin: 0; 
   padding: 0px 10px 0px 10px;
@@ -75,7 +75,7 @@ nav ul {
 
 nav li{
 	float: left;
-  padding: 12px 40px 12px 10px;
+  padding: 12px 10px 12px 10px;
  
   
 	/*Position of menu*/
