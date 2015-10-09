@@ -1,0 +1,125 @@
+@charset "utf-8";
+* {
+	padding:0px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 3vh;
+	background-color: #222;
+}
+
+h1 {
+	/*MISSIONS TO SATURN txt*/
+	text-shadow: -1px -2px gold,
+				2px 2px #000;
+	text-align: center;
+	color: #eee;
+	font-size: 14vh; 
+	font-family:Calibri;
+  	padding: 75px 0px 100px 0px;
+	/* Remember to save this image in folder and change address in HTML*/
+}
+
+h3 {
+	/*JUST THE FACTS txt*/
+	text-align: left;
+	color: #eee;
+	font-family: Calibri;
+	padding: 40px 5px 40px; 
+  	font-size: 50px;
+  	margin: 0;
+}
+
+p {
+	/*Paragraphs following H3*/
+	text-align: left;
+	color: #d4d4d4;
+	font-family: Verdana;
+	padding: 10px 10px 35px 10px; 
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+	/*Nav menu text*/
+	text-align: center;
+	color:gold;
+	font-family: Calibri;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:active {
+	/*When hover/click nav menu*/
+	color: #000;
+  text-align: center;
+}
+
+nav ul {
+	/*Nav menu background style*/
+	list-style-type: none;
+	overflow: auto;
+	text-align: center;
+	background: #444;
+	border-top: 10px solid;
+	border-bottom: 15px solid;
+	border-color: #666;
+  margin: 0; 
+  padding: 0px 10px 0px 10px;
+}
+
+nav li{
+	float: left;
+  padding: 12px 40px 12px 10px;
+ 
+  
+	/*Position of menu*/
+}
+
+#wrapper {
+	/*Inner box everything sits in, photo align with this wrap*/
+  width:930px;
+  padding: 0px 50px 0px 50px
+}
+
+#masthead {
+	/*Missions header with photo and background photo
+	Insert saturn background photo here? (!)
+	*/
+	background-image: url(http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg);
+	background-size: 833px;
+	padding: 0px 20px 20px 20px;
+	height: 270px;
+}
+
+#main {
+	/*All text just the facts + paragraphs following
+	
+	*/
+  
+  background-color:#444;
+  padding: 0px 20px 20px 20px;
+  
+}
+
+#footer {
+  background-color: #333;
+  padding: 10px 20px 10px 20px;
+}
+
+#footer p{
+  color: #666;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+}
+
+#footer a{
+	color: gold;
+  padding: 10px 10px 10px 1px;
+  
+  
+}
